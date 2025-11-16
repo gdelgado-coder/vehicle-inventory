@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Veículos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h1>Veículos</h1>
+
+<div class="filter-box">
+    <input id="filterBrand" placeholder="Marca">
+    <input id="filterModel" placeholder="Modelo">
+    <input id="filterYear" placeholder="Ano">
+    <button onclick="loadVehicles()">Filtrar</button>
+</div>
+
+<table id="vehiclesTable">
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>Marca</th>
+        <th>Modelo</th>
+        <th>Ano</th>
+        <th>Cor</th>
+        <th>Preço</th>
+        <th>KM</th>
+        <th>Status</th>
+    </tr>
+    </thead>
+    <tbody></tbody>
+</table>
+
+<script src="script.js"></script>
+</body>
+</html>
